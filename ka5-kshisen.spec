@@ -36,8 +36,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 KShisen is a solitaire-like game played using the standard set of
 Mahjong tiles. Unlike Mahjong however, KShisen has only one layer of
-scrambled tiles. Unlike Mahjong however, KShisen has only one layer of
 scrambled tiles.
+
+%description -l pl.UTF-8
+KShisen jest grą jak pasjans graną przy użyciu kafelków Mahjonga.
+W odróżnieniu do Mahjonga, KShisen ma tylko jeden poziom wymieszanych
+kafelków.
 
 %prep
 %setup -q -n %{kaname}-%{version}
